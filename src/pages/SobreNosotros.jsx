@@ -36,7 +36,7 @@ const SobreNosotros = () => {
                 <section className="historia">
                     <h2>Repositorio</h2>
                     <p>
-                        Aquí puedes contar la historia de tu empresa. Por ejemplo: "Fundada en 2020, nuestra empresa ha crecido rápidamente gracias a la confianza de nuestros clientes."
+                       <a href="https://github.com/Ivan-sk8/Proyecto">Aquí</a>  puedes encontrar el repositorio de git
                     </p>
                 </section>
             </div>
