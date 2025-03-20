@@ -15,7 +15,7 @@ const AppRoutes = () => {
         <Route path="/lang-search" element={<LangSearch />} />
         <Route path="/name-search" element={<NameSearch />} />
         <Route path="/region-search" element={<RegionSearch />} />
-        <Route path="/AboutUs" element={<SobreNosotros />} />
+        <Route path="/about" element={<SobreNosotros />} />
       </Routes>
     </Router>
   );

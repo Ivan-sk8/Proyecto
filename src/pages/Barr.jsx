@@ -13,7 +13,7 @@ import MenuItem from '@mui/material/MenuItem';
 const pages = [
   { name: 'inicio', path: '/' },
   { name: 'API', path: 'https://restcountries.com/' },
-  { name: 'sobre nosotros', path: '/AboutUs' }
+  { name: 'sobre nosotros', path: '/about' }
 ];
 const settings = [];
 
