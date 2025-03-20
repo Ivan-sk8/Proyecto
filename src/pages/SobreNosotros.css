@@ -1,0 +1,52 @@
+.sobre-nosotros {
+    position: relative;
+    height: 100vh; /* Ajusta la altura según sea necesario */
+    background-image: url('ruta/a/tu/mapa.jpg'); /* Cambia la ruta a tu imagen de mapa */
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* Asegúrate de que el fondo esté detrás del contenido */
+}
+
+.contenido {
+    position: relative;
+    z-index: 1; /* Asegúrate de que el contenido esté por encima del fondo */
+    color: white; /* Cambia el color del texto según sea necesario */
+    padding: 40px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente para mejorar la legibilidad */
+    border-radius: 10px; /* Opcional: bordes redondeados */
+    max-width: 800px; /* Limita el ancho del contenido */
+    margin: auto; /* Centra el contenido */
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+.mision-vision, .valores, .equipo, .historia {
+    margin-bottom: 40px; /* Espaciado entre secciones */
+}
+
+.miembros-equipo {
+    display: flex;
+    justify-content: space-around; /* Espaciado entre miembros del equipo */
+    flex-wrap: wrap; /* Permite que los miembros se ajusten en pantallas más pequeñas */
+}
+
+.miembro {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente para los miembros */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 30%; /* Ajusta el tamaño de los miembros */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
+.miembro h3 {
+    margin: 0 0 10px; /* Espaciado entre el nombre y la descripción */
+}
+
+.miembro p {
+    margin: 0; /* Elimina el margen por defecto */
+}
